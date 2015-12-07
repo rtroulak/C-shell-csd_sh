@@ -1,9 +1,6 @@
 /**
  * Troulakis Giorgos Rafail
- * CSD
- * AM 2716
- * Assignment 1
- * HY345
+ * C shell csd_sh
  */
 
 
