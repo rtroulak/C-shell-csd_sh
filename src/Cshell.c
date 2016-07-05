@@ -23,7 +23,6 @@
 
 
 
-
 void start_clock(){
   st_time = times(&st_cpu);
 }
@@ -51,7 +50,7 @@ void end_clock(char *msg){
  *prints the login with dir
  */
 void login_etc_print(){
-    printf("%s@csd_sh:~",getlogin());
+    printf("%s@rtroulak_sh:~",getlogin());
  
     if (getcwd(cwd, sizeof(cwd)) != NULL)
        fprintf(stdout, "%s", cwd);
